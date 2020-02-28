@@ -6,20 +6,22 @@
 #include <Button.h>
 #include <Textbox.h>
 
-Avatar::Avatar()
+Avatar::Avatar()//Default Constructor
 {
 }
 
 void Avatar::Start()
 {
+    //Creating the window
     window2.create(sf::VideoMode(800, 600), "PULCHOWK", sf::Style::Default);
     selectedIndex=0;
-
+//Options in the avatar screen
     sf::Text menu[5];
     if (!font.loadFromFile("../res/font/arial.ttf")) {
         // handle error
     }
 
+    //Defining the name entering field
     Button text;
     text.setButton("", { 100, 30 }, 30, sf::Color::White, sf::Color::Black);
     text.setFont(font);
@@ -28,6 +30,7 @@ void Avatar::Start()
     name.setPosition({400, 100 });
     name.setFont(font);
 
+    //Option for the gender
     Button male;
     male.setButton(m, { 100, 30 }, 30, sf::Color::Magenta, sf::Color::Black);
     male.setFont(font);
@@ -56,13 +59,17 @@ void Avatar::Start()
                     break;
                 case sf::Event::MouseButtonPressed:
                     if (male.isMouseOver(window2)) {
+                        //Set the initial color of male button Cyan
                         male.setBackColor(sf::Color::Cyan);
+                        //Changed color after selection Magenta
                         female.setBackColor(sf::Color::Magenta);
 
                         isMale=true;
                     }
                     if (female.isMouseOver(window2)) {
+                        //Set the initial color of the female button Cyan
                             female.setBackColor(sf::Color::Cyan);
+                            //Changed color after selection Magenta
                             male.setBackColor(sf::Color::Magenta);
                             isMale=false;
                     }
@@ -89,6 +96,7 @@ void Avatar::Start()
         menu[4].setString(" Back");
         menu[4].setPosition(sf::Vector2f(350,500));
 
+        //Initializing color and fonts of the options in avatar screen
         for(int j=0;j<5;j++)
         {
             menu[j].setFont(font);
@@ -110,9 +118,11 @@ void Avatar::Start()
 
     }
     nam=name.getText();
+    //Displaying the name and gender of the player in terminal
     std::cout<<"\nPlayer:"<<nam<<"\nGender:"<<(isMale==true?m:f);
 }
 
+//Takes the player input
 void Avatar::playerInput(sf::Keyboard::Key & key, bool isPressed)
 {
     switch (key){
@@ -144,6 +154,7 @@ bool Avatar::GetPressed()
     switch (selectedIndex)
     {
         case(1) :
+            //Select the gender
             break;
         case(2):
             Profile();
@@ -157,10 +168,12 @@ bool Avatar::GetPressed()
             back.Start();
             break;
         case(0):
+            //Enter the player name
             break;
     }
 }
 
+//Profile screen
 void Avatar::Profile()
 {
     window2.create(sf::VideoMode(800, 600), "PULCHOWK", sf::Style::Default);
@@ -168,6 +181,7 @@ void Avatar::Profile()
     window2.display();
 }
 
+//Destructor
 Avatar::~Avatar()
 {
 window2.close();

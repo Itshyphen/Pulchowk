@@ -59,17 +59,19 @@ void Player::update(float& deltaTime, sf::View& view){
     // if the image is that of partially walking, switch to still one if no key is pressed as well
     animation.update(row,deltaTime,faceRight,true);
   }
-    //const bool areColliding=collision::areColliding(player, ) ;
+
     Game g;
     std::cout<<g.areColliding;
-    if (g.areColliding-6) {
+    //Checking if the player has collided or not
+    if (g.areColliding) {
+        //if collided stop the directional movement of player
         player.setColor(sf::Color::Green);
     }
     else {
+        //if not continue the movement of the player
+        // move the coordinates of the player by adding the coordinates of movement
         player.move(movement);
     }
-
-  // move the coordinates of the player by adding the coordinates of movement
 
   // set the center of the view to the center of where the player is moved
   view.setCenter(sf::Vector2f(player.getPosition().x, player.getPosition().y));
@@ -89,5 +91,4 @@ void Player::draw(sf::RenderTarget &tar, sf::RenderStates states) const {
   tar.draw(player);
 }
 
-//void Player::Set(const std::string &texture, sf::Vector2u imageCount, float switchTime, float speed) {
 

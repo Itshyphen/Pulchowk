@@ -5,8 +5,6 @@
 #ifndef PULCHOWK_TEXTBOX_H
 #define PULCHOWK_TEXTBOX_H
 
-#pragma once
-
 #include <iostream>
 #include <sstream>
 #include <SFML/Graphics.hpp>
@@ -15,6 +13,8 @@
 class Textbox {
 public:
     sf::Text textbox;
+
+    //Parameterized constructor
     Textbox(int size, sf::Color color, bool sel) {
         textbox.setCharacterSize(size);
         textbox.setFillColor(color);
@@ -46,10 +46,12 @@ public:
         limit = lim - 1;
     }
 
+    //Get the entered text
     std::string getText() {
         return text.str();
     }
 
+    //Draw the textbox to the window
     void drawTo(sf::RenderWindow &window) {
         window.draw(textbox);
     }

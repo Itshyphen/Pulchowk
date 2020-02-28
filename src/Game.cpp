@@ -76,6 +76,8 @@ void Game::run(){
     window.draw(map1); // the draw function is overloaded so you don't have to add the texture along with draw
     p1.update(dTime,view);
     Collision c;
+
+    //This is the part of collision detection of player and passed object
     areColliding=c.areColliding(p1.getSprite(), s);
     std::cout<<areColliding;
     window.draw(p1.getSprite());

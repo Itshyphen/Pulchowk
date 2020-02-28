@@ -9,13 +9,21 @@
 #include <SFML/Graphics.hpp>
 
 class Button {
+private:
+    sf::RectangleShape button;
+    sf::Text text;
+
+    int btnWidth;
+    int btnHeight;
+
 public:
+    //Constructor
     Button(){}
+    //Set the text, size, background color and textcolor for the button
        void setButton(std::string btnText, sf::Vector2f buttonSize, int charSize, sf::Color bgColor, sf::Color textColor) {
         button.setSize(buttonSize);
         button.setFillColor(bgColor);
 
-        // Get these for later use:
         btnWidth = buttonSize.x;
         btnHeight = buttonSize.y;
 
@@ -29,23 +37,27 @@ public:
         text.setFont(fonts);
     }
 
+    //Pass the back color
     void setBackColor(sf::Color color) {
         button.setFillColor(color);
     }
 
+    //Pass text color
     void setTextColor(sf::Color color) {
         text.setFillColor(color);
     }
 
+    //Pass the position of the button
     void setPosition(sf::Vector2f point) {
         button.setPosition(point);
 
-        // Center text on button:
+        // Set the position of text within the button
         float xPos = (point.x + btnWidth / 2) - (text.getLocalBounds().width / 2);
         float yPos = (point.y + btnHeight / 3.6) - (text.getLocalBounds().height / 2);
         text.setPosition(xPos, yPos);
     }
 
+    //Draw the button and the text
     void drawTo(sf::RenderWindow &window) {
         window.draw(button);
         window.draw(text);
@@ -67,11 +79,6 @@ public:
         }
         return false;
     }
-private:
-    sf::RectangleShape button;
-    sf::Text text;
 
-    int btnWidth;
-    int btnHeight;
 };
 #endif //PULCHOWK_BUTTON_H

@@ -13,11 +13,12 @@ class Game{
   public:
     Game();
     void Setup();
-
     void setView();
     void run();
 
+    //Declaring the friend class Player
     friend class Player;
+
   private:
     sf::RenderWindow window;
     sf::View view;
