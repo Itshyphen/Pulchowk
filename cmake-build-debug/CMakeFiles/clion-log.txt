@@ -1,0 +1,17 @@
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Hyphen\Desktop\ADayInPulchowk\a-day-in-pulchowk-nishan-error-solved
+CMake Warning (dev) at CMakeLists.txt:23 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable SFML_ROOT is set to:
+
+    C:/SFML
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found SFML 2.4.2 in C:/SFML/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug

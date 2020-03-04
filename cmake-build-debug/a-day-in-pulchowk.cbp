@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a-day-in-pulchowk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ppok/a-day-in-pulchowk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ppok/a-day-in-pulchowk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a-day-in-pulchowk">
+				<Option output="/home/ppok/a-day-in-pulchowk/cmake-build-debug/a-day-in-pulchowk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ppok/a-day-in-pulchowk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ppok/a-day-in-pulchowk/a-day-in-pulchowk"/>
+					<Add directory="/home/ppok/a-day-in-pulchowk/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 a-day-in-pulchowk"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a-day-in-pulchowk/fast">
+				<Option output="/home/ppok/a-day-in-pulchowk/cmake-build-debug/a-day-in-pulchowk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ppok/a-day-in-pulchowk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ppok/a-day-in-pulchowk/a-day-in-pulchowk"/>
+					<Add directory="/home/ppok/a-day-in-pulchowk/headers"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 a-day-in-pulchowk/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ppok/a-day-in-pulchowk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ppok/a-day-in-pulchowk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Activity.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Animation.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Avatar.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Building.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Button.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Game.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Interior.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/MainMenu.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Object.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Player.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Players.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Rect.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/TextField.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Time.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/headers/Trees.h">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/main.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Activity.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Animation.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Avatar.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Building.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Game.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Interior.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/MainMenu.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Player.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Players.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Rect.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Time.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/src/Trees.cpp">
+			<Option target="a-day-in-pulchowk"/>
+		</Unit>
+		<Unit filename="/home/ppok/a-day-in-pulchowk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

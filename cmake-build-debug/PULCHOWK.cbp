@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PULCHOWK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PULCHOWK">
+				<Option output="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/PULCHOWK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/Hyphen/CLionProjects/START/header"/>
+					<Add directory="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/PULCHOWK"/>
+					<Add directory="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/header"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 PULCHOWK"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PULCHOWK/fast">
+				<Option output="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/PULCHOWK.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/Hyphen/CLionProjects/START/header"/>
+					<Add directory="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/PULCHOWK"/>
+					<Add directory="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/header"/>
+					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 PULCHOWK/fast"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Activity.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Animation.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Avatar.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Building.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Button.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Game.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Interior.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/MainMenu.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Object.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Player.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Players.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Profile.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Rect.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/TextField.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Time.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/headers/Trees.h">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/main.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Activity.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Animation.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Avatar.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Building.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Game.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Interior.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/MainMenu.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Player.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Players.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Rect.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Time.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/src/Trees.cpp">
+			<Option target="PULCHOWK"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
