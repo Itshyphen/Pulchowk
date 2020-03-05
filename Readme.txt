@@ -4,7 +4,7 @@ It is a 2D simulation RPG game using C++ and SFML as library.
  
 Building Instructions
 The project was done using Windows 10, for the ease of building use the Windows.
-If you are on the Linux, change the Cmake file accordingly.
+If you are on the Linux, change the Cmake file  accordingly.
 
 Dependencies: SFML 2.4.2
 
