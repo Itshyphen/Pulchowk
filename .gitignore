@@ -3,3 +3,4 @@ cmake-build-debug/*
 cmake_modules/*
 headers/Avatar.h
 src/Avatar.cpp
+.idea
