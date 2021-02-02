@@ -17,6 +17,7 @@ class Game{
 public:
     Game();
     Game(std::string title);
+    ~Game();
     void run();
     void splashScreen(float dt,const sf::Text& welcome); // function to call a splash screen when needed
 

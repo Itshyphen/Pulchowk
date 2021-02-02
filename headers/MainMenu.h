@@ -11,6 +11,7 @@ class MainMenu
 private:
     sf::Font font;
     sf::RenderWindow window;
+    sf::RenderWindow Rules;
     int selectedIndex;
 
     //Defining texture and image for background
@@ -21,7 +22,7 @@ private:
     void playerInput(sf::Keyboard::Key &key, bool isPressed);
     void MoveUp(bool up);
     void GetPressed();
-    void Rules();
+    void Rule();
 
 public:
     MainMenu();

@@ -8,6 +8,9 @@
 bool areColliding[58];
 extern std::string nam;
 Game::Game(){}
+Game::~Game(){
+    window.close();
+}
 Game::Game(std::string title){
     window.create({500,500,32},title);
     window.setFramerateLimit(120);

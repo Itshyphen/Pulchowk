@@ -124,7 +124,9 @@ void MainMenu::GetPressed()
        }
 
         case 1: {
-            Rules();
+            window.close();
+            Rule();
+            Start();
             break;
         }
     }
@@ -132,10 +134,11 @@ void MainMenu::GetPressed()
 
 MainMenu::~MainMenu(){
     window.close();
+    Rules.close();
 }
 
-void MainMenu::Rules() {
-    sf::RenderWindow Rules(sf::VideoMode(800, 600), "PULCHOWK");
+void MainMenu::Rule() {
+    Rules.create(sf::VideoMode(800, 600), "PULCHOWK");
     Button text;
     text.setButton("Back", { 140, 50 }, 40, sf::Color::White, sf::Color::Black);
     text.setFont(font);
@@ -158,6 +161,7 @@ void MainMenu::Rules() {
             if(event.type== sf::Event::MouseButtonPressed)
                 if (text.isMouseOver(Rules)) {
                     Rules.close();
+                    break;
                     // include this after fixing the file handling part
                     //avatar.Start();
                 }
@@ -169,7 +173,6 @@ void MainMenu::Rules() {
         text.drawTo(Rules);
         Rules.display();
     }
-
 }
 
 
