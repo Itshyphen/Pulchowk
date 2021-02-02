@@ -12,7 +12,6 @@ private:
     sf::Font font;
     sf::RenderWindow window;
     int selectedIndex;
-    bool isPressedUp=false, isPressedDown=false, isPressedEnter=false;
 
     //Defining texture and image for background
     sf::Texture image;

@@ -4,9 +4,8 @@
 #include <SFML/Graphics.hpp>
 
 int main() {
-//Game game("PULCHOWK");
-MainMenu mainmenu;
-mainmenu.Start();
+  MainMenu mainmenu;
+  mainmenu.Start();
 
   return 0;
 }

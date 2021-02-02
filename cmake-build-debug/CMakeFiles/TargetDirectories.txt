@@ -1,3 +1,0 @@
-C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/CMakeFiles/PULCHOWK.dir
-C:/Users/Hyphen/Desktop/ADayInPulchowk/a-day-in-pulchowk-nishan-error-solved/cmake-build-debug/CMakeFiles/rebuild_cache.dir
