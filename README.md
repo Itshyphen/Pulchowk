@@ -28,6 +28,6 @@ Open this folder from CLion IDE and run the program.
 The CMakeLists file should be sufficient to build the program.
 
 #### Developers:
-1.Nishan Poudel 075BCT057 (@nsn39)
-2.Pranjal Pokharel 075BCT061 (@pranjalpokharel7)
-3.Ranju G.C. 075BCT064 (@Itshyphen)
+**1.Nishan Poudel 075BCT057 (@nsn39)**
+**2.Pranjal Pokharel 075BCT061 (@pranjalpokharel7)**
+**3.Ranju G.C. 075BCT064 (@Itshyphen)**
