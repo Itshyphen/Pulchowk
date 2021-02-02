@@ -1,10 +1,12 @@
 ### A DAY IN PULCHOWK
 
-It is a top-down 2D simulation RPG game using C++ and SFML as library. As the name suggests, the game is a one-day simulation in Pulchowk Campus,
+A top-down 2D simulation RPG game using C++ and SFML as library as a part of academic project for Object Oriented Programming in C++.\
+\
+As the name suggests, the game is a one-day simulation in Pulchowk Campus,
 where the player can interact with different avatars in-game and visit buildings inside the campus.\
+\
 Scores are awarded as points in 6 sections: health, education, energy, money, social and fun based on the amount of time you spend inside a building.
 The objective is to accrue as many points as possible within the given time frame.\
-The game is developed for the academic project of Object Oriented Programming.
 
 #### Dependencies
 -  SFML 2.0
@@ -22,7 +24,7 @@ CMakeLists file included in the root directory.
 ##### 2) Linux
 If on Linux, use the Makefile to compile and run the program\
 `$ make` - to build the program\
-`$ make run` - to run the executable\
+`$ make run` - to run the executable
 
 Additionally, you can refer to the official [SFML documentation](https://www.sfml-dev.org/tutorials/2.5/) for building files on other platforms.
 
