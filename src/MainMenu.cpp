@@ -143,7 +143,7 @@ void MainMenu::Rules() {
 
     sf::Texture rule;
     sf::Sprite rules;
-    Avatar avatar;
+   // Avatar avatar;
 
     rule.loadFromFile("../textures/rules.png");
     rules.setTexture(rule);
