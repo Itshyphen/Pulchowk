@@ -2,7 +2,7 @@
 // Created by ppok on 2020-02-15.
 //
 
-#include "../header/Rect.h"
+#include "../headers/Rect.h"
 
 void Rect::setTiles(const std::string& texture, sf::Vector2u tileSize,const int* tileArray,int height,int width){
   tileMap.loadFromFile(texture);
@@ -19,7 +19,6 @@ void Rect::setTiles(const std::string& texture, sf::Vector2u tileSize,const int*
       // for loop 1, tileArray[0 + 1 * 15] = tileArray[15] i.e. just one tile below the origin tile at (0,0)
       // for loop 1, tileArray[0 + 2 * 15] = tileArray[30], 3rd tile in the y-axis below tile at (0,0)
 
-      // haven't understood the concept behind tu and tv, just know that it works for each iteration of the loop
       // value of tu and tv depends on the value of currentTile's texture value
       unsigned int tu = currentTile % (tileMap.getSize().x / tileSize.x);
       unsigned int tv = currentTile / (tileMap.getSize().x / tileSize.x);

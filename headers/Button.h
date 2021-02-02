@@ -17,7 +17,6 @@ private:
     int btnHeight;
 
 public:
-    //Constructor
     Button(){}
     //Set the text, size, background color and textcolor for the button
        void setButton(std::string btnText, sf::Vector2f buttonSize, int charSize, sf::Color bgColor, sf::Color textColor) {
@@ -65,16 +64,16 @@ public:
 
     // Check if the mouse is within the bounds of the button:
     bool isMouseOver(sf::RenderWindow &window) {
+        //Takes the mouse position
         int mouseX = sf::Mouse::getPosition(window).x;
         int mouseY = sf::Mouse::getPosition(window).y;
 
+        //Takes the button position
         int btnPosX = button.getPosition().x;
         int btnPosY = button.getPosition().y;
 
-        int btnxPosWidth = button.getPosition().x + btnWidth;
-        int btnyPosHeight = button.getPosition().y + btnHeight;
-
-        if (mouseX < btnxPosWidth && mouseX > btnPosX && mouseY < btnyPosHeight && mouseY > btnPosY) {
+        //If mouse position lies within the button then returns true
+        if (mouseX < (btnPosX + btnWidth) && mouseX > btnPosX && mouseY < (btnPosY+btnHeight) && mouseY > btnPosY) {
             return true;
         }
         return false;

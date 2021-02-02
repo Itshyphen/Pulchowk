@@ -9,25 +9,31 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Text.hpp>
 #include <SFML/Graphics.hpp>
-#include "MainMenu.h"
+#include "../headers/MainMenu.h"
+
 
 class Avatar
 {
 private:
     sf::Font font;
-    sf::RenderWindow window2;
+    sf::RenderWindow window;
     std::string m="Male",f="Female";
     int selectedIndex=0;
     bool isPressedUp=false, isPressedDown=false, isPressedEnter=false;
+
+    //Defining texture and image for background
+    sf::Texture image;
+    sf::Sprite loadImage;
     MainMenu back;
+
+    //Function for taking the player input
     void playerInput(sf::Keyboard::Key &key, bool isPressed);
     void MoveUp(bool up);
-    bool GetPressed();
-    void Profile();
+
+    //Function to called on selection
+    void GetPressed();
 
 public:
-    std::string nam;
-    bool isMale;
     Avatar();
     ~Avatar();
     void Start();
@@ -36,3 +42,4 @@ public:
 
 
 #endif //PULCHOWK_AVATAR_H
+

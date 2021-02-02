@@ -10,19 +10,21 @@ class MainMenu
 {
 private:
     sf::Font font;
-    sf::RenderWindow window1;
-    int selectedIndex=0;
-    bool isPressedUp{}, isPressedDown{}, isPressedEnter{};
+    sf::RenderWindow window;
+    int selectedIndex;
+
+    //Defining texture and image for background
+    sf::Texture image;
+    sf::Sprite loadImage;
 
     void drawMenu();
     void playerInput(sf::Keyboard::Key &key, bool isPressed);
     void MoveUp(bool up);
     void GetPressed();
-    void about();
+    void Rules();
 
 public:
     MainMenu();
-    explicit MainMenu(const std::string& title);
     ~MainMenu();
     void Start();
 
